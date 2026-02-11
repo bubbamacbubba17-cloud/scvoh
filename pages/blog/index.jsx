@@ -3,6 +3,12 @@ import Layout from '../../components/Layout';
 
 const posts = [
   {
+    slug: 'why-your-santa-clarita-home-didnt-sell',
+    title: "Why Your Santa Clarita Home Didn’t Sell – And What To Do Next",
+    description:
+      'A First Responder Realtor’s breakdown of the real reasons Santa Clarita listings fail and how to relist intelligently.',
+  },
+  {
     slug: 'investigate-your-neighbors-before-you-buy-in-santa-clarita',
     title: 'Before You Buy in Santa Clarita: How to Investigate the Neighbors (Without Being Weird)',
     description:

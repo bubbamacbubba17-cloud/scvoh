@@ -18,146 +18,28 @@ export default function MarketReview() {
         <p style={{ marginBottom: '1.5rem' }}>
           This is not an automated Zestimate. I will personally review your information and follow up.
         </p>
-        <form
-          method="post"
-          action="#"
-          style={{
-            backgroundColor: '#ffffff',
-            padding: '1.25rem 1.5rem',
-            borderRadius: '0.5rem',
-            border: '1px solid #e5e7eb',
-            boxShadow: '0 10px 15px -3px rgba(0,0,0,0.07)',
-            maxWidth: 640,
-          }}
-        >
-          <div style={{ marginBottom: '0.9rem' }}>
-            <label htmlFor="name" style={{ display: 'block', fontSize: '0.9rem', marginBottom: '0.25rem' }}>
-              Name
-            </label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              required
-              style={{
-                width: '100%',
-                padding: '0.5rem 0.6rem',
-                borderRadius: '0.375rem',
-                border: '1px solid #d1d5db',
-                fontSize: '0.95rem',
-              }}
-            />
-          </div>
 
-          <div style={{ marginBottom: '0.9rem' }}>
-            <label htmlFor="email" style={{ display: 'block', fontSize: '0.9rem', marginBottom: '0.25rem' }}>
-              Email
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              required
-              style={{
-                width: '100%',
-                padding: '0.5rem 0.6rem',
-                borderRadius: '0.375rem',
-                border: '1px solid #d1d5db',
-                fontSize: '0.95rem',
-              }}
-            />
-          </div>
-
-          <div style={{ marginBottom: '0.9rem' }}>
-            <label htmlFor="phone" style={{ display: 'block', fontSize: '0.9rem', marginBottom: '0.25rem' }}>
-              Phone
-            </label>
-            <input
-              id="phone"
-              name="phone"
-              type="tel"
-              required
-              style={{
-                width: '100%',
-                padding: '0.5rem 0.6rem',
-                borderRadius: '0.375rem',
-                border: '1px solid #d1d5db',
-                fontSize: '0.95rem',
-              }}
-            />
-          </div>
-
-          <div style={{ marginBottom: '0.9rem' }}>
-            <label htmlFor="address" style={{ display: 'block', fontSize: '0.9rem', marginBottom: '0.25rem' }}>
-              Property Address
-            </label>
-            <input
-              id="address"
-              name="address"
-              type="text"
-              required
-              style={{
-                width: '100%',
-                padding: '0.5rem 0.6rem',
-                borderRadius: '0.375rem',
-                border: '1px solid #d1d5db',
-                fontSize: '0.95rem',
-              }}
-            />
-          </div>
-
-          <div style={{ marginBottom: '0.9rem' }}>
-            <label htmlFor="timing" style={{ display: 'block', fontSize: '0.9rem', marginBottom: '0.25rem' }}>
-              When are you thinking about selling?
-            </label>
-            <input
-              id="timing"
-              name="timing"
-              type="text"
-              placeholder="e.g., 3–6 months, 12 months, just exploring"
-              style={{
-                width: '100%',
-                padding: '0.5rem 0.6rem',
-                borderRadius: '0.375rem',
-                border: '1px solid #d1d5db',
-                fontSize: '0.95rem',
-              }}
-            />
-          </div>
-
-          <div style={{ marginBottom: '1.1rem' }}>
-            <label htmlFor="notes" style={{ display: 'block', fontSize: '0.9rem', marginBottom: '0.25rem' }}>
-              Anything else I should know?
-            </label>
-            <textarea
-              id="notes"
-              name="notes"
-              rows={4}
-              style={{
-                width: '100%',
-                padding: '0.5rem 0.6rem',
-                borderRadius: '0.375rem',
-                border: '1px solid #d1d5db',
-                fontSize: '0.95rem',
-              }}
-            />
-          </div>
-
-          <button
-            type="submit"
-            style={{
-              padding: '0.6rem 1rem',
-              backgroundColor: '#111827',
-              color: '#f9fafb',
-              border: 'none',
-              borderRadius: '0.375rem',
-              fontSize: '0.95rem',
-              cursor: 'pointer',
-            }}
-          >
-            Send my market review request
-          </button>
-        </form>
+        <div style={{ marginTop: '1.5rem' }}>
+          {/* HonorElevate SCV market review form embed */}
+          <iframe
+            src="https://api.honorelevate.com/widget/form/tfSNT5veEIECXZqinyQn"
+            style={{ width: '100%', height: '1652px', border: 'none', borderRadius: '3px' }}
+            id="inline-tfSNT5veEIECXZqinyQn"
+            data-layout="{'id':'INLINE'}"
+            data-trigger-type="alwaysShow"
+            data-trigger-value=""
+            data-activation-type="alwaysActivated"
+            data-activation-value=""
+            data-deactivation-type="neverDeactivate"
+            data-deactivation-value=""
+            data-form-name="Bubba - SCV market review"
+            data-height="1652"
+            data-layout-iframe-id="inline-tfSNT5veEIECXZqinyQn"
+            data-form-id="tfSNT5veEIECXZqinyQn"
+            title="Bubba - SCV market review"
+          />
+          <script src="https://api.honorelevate.com/js/form_embed.js" type="text/javascript" />
+        </div>
       </article>
     </Layout>
   );

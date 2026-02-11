@@ -19,10 +19,8 @@ export default function MarketReview() {
           This is not an automated Zestimate. I will personally review your information and follow up.
         </p>
         <form
-          name="scv-market-review"
           method="post"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
+          action="#"
           style={{
             backgroundColor: '#ffffff',
             padding: '1.25rem 1.5rem',
@@ -32,14 +30,6 @@ export default function MarketReview() {
             maxWidth: 640,
           }}
         >
-          {/* Netlify form requirements */}
-          <input type="hidden" name="form-name" value="scv-market-review" />
-          <p style={{ display: 'none' }}>
-            <label>
-              Dont fill this out if youre human: <input name="bot-field" />
-            </label>
-          </p>
-
           <div style={{ marginBottom: '0.9rem' }}>
             <label htmlFor="name" style={{ display: 'block', fontSize: '0.9rem', marginBottom: '0.25rem' }}>
               Name

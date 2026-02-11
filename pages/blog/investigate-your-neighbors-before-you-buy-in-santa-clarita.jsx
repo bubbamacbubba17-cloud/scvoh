@@ -181,7 +181,7 @@ export default function NeighborInvestigationArticle() {
             before you commit.
           </p>
           <a
-            href="#"
+            href="/book/strategy-call"
             style={{
               display: 'inline-block',
               padding: '0.5rem 0.9rem',
@@ -211,7 +211,7 @@ export default function NeighborInvestigationArticle() {
             neighbors and street dynamics will affect your asking price and days on market.
           </p>
           <a
-            href="#"
+            href="/sell/market-review"
             style={{
               display: 'inline-block',
               padding: '0.5rem 0.9rem',
